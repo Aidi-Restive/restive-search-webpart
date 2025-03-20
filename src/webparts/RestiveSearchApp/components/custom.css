@@ -135,13 +135,11 @@ input.dropdownInput {
 }
 
 .dropdownContentHeading {
-    /* font-size: 0.85em; */
     font-size: 1.1em;
     font-weight: 600;
     margin-bottom: 4px;
     margin-top: 15px;
     padding: 0 15px;
-    /* color: #737373; */
     color: #000;
 }
 
@@ -150,7 +148,6 @@ input.dropdownInput {
     display: block;
     width: 100%;
     font-size: 1em;
-    /* font-weight: 400; */
     font-weight: 350;
     padding: 10px 15px;
     color: #000;
@@ -211,9 +208,4 @@ input.dropdownInput {
         margin-left: unset;
         padding-bottom: 15px;
     }
-}
-
-/* DEBUG/Sampling */
-[class$='menu']{
-    z-index:901; max-height:200px; overflow:hidden;
 }

@@ -1,4 +1,4 @@
-declare interface IPnpSearchAppWebPartStrings {
+declare interface IRestiveSearchAppWebPartStrings {
   PropertyPaneDescription: string;
   BasicGroupName: string;
   DescriptionFieldLabel: string;
@@ -13,6 +13,6 @@ declare interface IPnpSearchAppWebPartStrings {
 }
 
 declare module 'RestiveSearchAppWebPartStrings' {
-  const strings: IPnpSearchAppWebPartStrings;
+  const strings: IRestiveSearchAppWebPartStrings;
   export = strings;
 }

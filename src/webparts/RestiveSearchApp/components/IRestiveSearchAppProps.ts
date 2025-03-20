@@ -1,4 +1,4 @@
-export interface IPnpSearchAppProps {
+export interface IRestiveSearchAppProps {
   description: string;
   isDarkTheme: boolean;
   environmentMessage: string;

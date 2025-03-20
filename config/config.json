@@ -5,8 +5,8 @@
     "restive-search-app-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/pnpSearchApp/RestiveSearchAppWebPart.js",
-          "manifest": "./src/webparts/pnpSearchApp/RestiveSearchAppWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/RestiveSearchApp/RestiveSearchAppWebPart.js",
+          "manifest": "./src/webparts/RestiveSearchApp/RestiveSearchAppWebPart.manifest.json"
         }
       ]
     }

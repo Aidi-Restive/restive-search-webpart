@@ -10,19 +10,19 @@ import { IReadonlyTheme } from '@microsoft/sp-component-base';
 
 import * as strings from 'RestiveSearchAppWebPartStrings';
 import RestiveSearchApp from './components/RestiveSearchApp';
-import { IPnpSearchAppProps } from './components/IPnpSearchAppProps';
+import { IRestiveSearchAppProps } from './components/IRestiveSearchAppProps';
 
-export interface IPnpSearchAppWebPartProps {
+export interface IRestiveSearchAppWebPartProps {
   description: string;
 }
 
-export default class RestiveSearchAppWebPart extends BaseClientSideWebPart<IPnpSearchAppWebPartProps> {
+export default class RestiveSearchAppWebPart extends BaseClientSideWebPart<IRestiveSearchAppWebPartProps> {
 
   private _isDarkTheme: boolean = false;
   private _environmentMessage: string = '';
 
   public render(): void {
-    const element: React.ReactElement<IPnpSearchAppProps> = React.createElement(
+    const element: React.ReactElement<IRestiveSearchAppProps> = React.createElement(
       RestiveSearchApp,
       {
         description: this.properties.description,

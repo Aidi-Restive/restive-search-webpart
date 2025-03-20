@@ -1,5 +1,14 @@
 # restive-search-app
 
+## Build guide
+[15:25:14] Project pnp-search-app version:0.0.1
+[15:25:14] Build tools version:3.17.19
+[15:25:14] Node version:v16.13.0
+sudo npm install (ignore errors + dont audit)
+gulp bundle --debug
+gulp package-solution --ship
+
+
 ## Summary
 
 Short summary on functionality and used technologies.
