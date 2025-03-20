@@ -1,1 +1,0 @@
-{"version":3,"file":"IPnpSearchAppProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/pnpSearchApp/components/IPnpSearchAppProps.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,kBAAkB;IACjC,WAAW,EAAE,MAAM,CAAC;IACpB,WAAW,EAAE,OAAO,CAAC;IACrB,kBAAkB,EAAE,MAAM,CAAC;IAC3B,eAAe,EAAE,OAAO,CAAC;IACzB,eAAe,EAAE,MAAM,CAAC;IACxB,OAAO,EAAE,GAAG,CAAC;CACd"}
