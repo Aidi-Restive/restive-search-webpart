@@ -177,6 +177,13 @@ const DataGridView = (props: any) => {
       setfilteredDocs(filteredbackupDocs);
     }
   }
+  
+  const keyboardNavigation = (e:any) => {
+    if(e.keyCode === 13){
+      e.preventDefault();
+      showDropdown ? setshowDropdown(false) : setshowDropdown(true);
+    }
+  }
 
   React.useEffect(() => {
     fetchFav();
@@ -206,7 +213,12 @@ const DataGridView = (props: any) => {
           />
         </div>
         <div className='docsdiv2'>
-          <div className={'dropdownParent ' + (isDisabled && 'disabled')} onClick={() => { setshowDropdown(!showDropdown) }}>
+          <div 
+            className={'dropdownParent ' + (isDisabled && 'disabled')} 
+            tabIndex={0} 
+            role='button' 
+            onKeyDown={(e) => keyboardNavigation(e)}
+            onClick={() => { setshowDropdown(!showDropdown) }}>
             {selectedLink}
             <div className="dropdownarrowparent">
               <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none">
