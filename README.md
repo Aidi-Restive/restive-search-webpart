@@ -33,14 +33,8 @@ Restive search app for documents library on sharepoint
 
 | Solution    | Author(s)                                               |
 | ----------- | ------------------------------------------------------- |
-| Restive Search Webpart | Aidi Johari | Restive | aidi@restive.com.au |
+| Restive Search Webpart | Aidi Johari \| Restive \| aidi@restive.com.au |
 
-## Version history
-
-| Version | Date             | Comments        |
-| ------- | ---------------- | --------------- |
-| 1.1     | March 10, 2021   | Update comment  |
-| 1.0     | January 29, 2021 | Initial release |
 
 ## Disclaimer
 
